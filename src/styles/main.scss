@@ -1,14 +1,18 @@
-// Переменные, миксины, функции
-@import "helpers/variables";
-@import "helpers/mixins";
-@import "helpers/functions";
+@import "base/_general.scss";
+@import "smart-grid.scss";
 
-// CSS-файлы библиотек
-@import "vendor/libs";
+.wrapper {
+  @include wrapper();
+}
 
-// Основное
-@import "base/fonts";
-@import "base/general";
+body {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #22252E;
+  background-color: #ffffff;
+}
 
-// БЭМ-блоки
-@import "../blocks/modules";
+@import "../blocks/modules/footer/footer.scss";

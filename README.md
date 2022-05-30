@@ -1,19 +1,4 @@
-# gulp-scss-starter
-
-![License](https://img.shields.io/github/license/andreyalexeich/gulp-scss-starter)
-![GitHub stars](https://img.shields.io/github/stars/andreyalexeich/gulp-scss-starter.svg?style=social)
-![GitHub watchers](https://img.shields.io/github/watchers/andreyalexeich/gulp-scss-starter.svg?style=social)<br>
-<a href="https://qiwi.com/n/ANDREYALEXEICH"><img src="https://img.shields.io/badge/%D0%97%D0%B0%D0%B4%D0%BE%D0%BD%D0%B0%D1%82%D1%8C%20%D0%BD%D0%B0%20%D0%BF%D0%B8%D0%B2%D0%BE-Qiwi-orange?style=for-the-badge&logo=qiwi"></a>
-
-
-## :fire: Особенности
-* именование классов по [БЭМ](https://ru.bem.info/)
-* используется БЭМ-структура
-* используется препроцессор [SCSS](https://sass-lang.com/)
-* используется транспайлер [Babel](https://babeljs.io/) для поддержки современного JavaScript (ES6) в браузерах
-* используется [Webpack](https://webpack.js.org/) для сборки JavaScript-модулей
-* используется жёсткий кодгайд
-* используется проверка кода на ошибки перед коммитом
+# test-vela
 
 ## :hammer_and_wrench: Установка
 * установите [NodeJS](https://nodejs.org/en/)
