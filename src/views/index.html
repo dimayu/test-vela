@@ -67,12 +67,6 @@
                 </li>
                 <li class="sub-menu-parent">
                     <a href="#">Услуги</a>
-                    <ul class="sub-menu">
-                        <li><a href="#">Sub Item 1</a></li>
-                        <li><a href="#">Sub Item 2</a></li>
-                        <li><a href="#">Sub Item 3</a></li>
-                        <li><a href="#">Sub Item 4</a></li>
-                    </ul>
                 </li>
                 <li>
                     <a href="#">Кейсы</a>
@@ -92,12 +86,12 @@
             </ul>
             <div class="nav-contacts">
                 <div class="social-links">
-                    <a href="#" class="social-links__link">
+                    <a href="#" class="social-links__link social-links__link--t">
                         <svg>
                             <use xlink:href="img/sprites/sprite.svg#telegram"></use>
                         </svg>
                     </a>
-                    <a href="#" class="social-links__link">
+                    <a href="#" class="social-links__link social-links__link--w">
                         <svg>
                             <use xlink:href="img/sprites/sprite.svg#whatsapp"></use>
                         </svg>
@@ -105,12 +99,249 @@
                 </div>
                 <div class="callback">
                     <a href="tel:8 499-391-00-09" class="callback__phone">8 499-391-00-09</a>
-                    <button class="callback__modal">Обратный звонок</button>
+                    <button class="callback__modal js-open-modal"
+                            data-modal="modal-callback">Обратный звонок</button>
+                </div>
+            </div>
+            <div class="mobile-nav-button">
+                <div class="mobile-nav-button__line"></div>
+                <div class="mobile-nav-button__line"></div>
+                <div class="mobile-nav-button__line"></div>
+            </div>
+            <nav class="mobile-menu">
+                <ul>
+                    <li>
+                        <a href="#">О компании</a>
+                    </li>
+                    <li>
+                        <a href="#">Услуги</a>
+                    </li>
+                    <li>
+                        <a href="#">Кейсы</a>
+                    </li>
+                    <li>
+                        <a href="#">Стоимость</a>
+                    </li>
+                    <li>
+                        <a href="#">Отзывы</a>
+                    </li>
+                    <li>
+                        <a href="#">Калькулятор</a>
+                    </li>
+                    <li>
+                        <a href="#">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</nav>
+
+<!--
+**********SUBMENU**************
+-->
+<div class="sub-menu">
+    <div class="wrapper">
+        <div class="sub-menu__items">
+            <ul class="tabs" data-tabgroup="first-tab-group">
+                <li><a href="#" rel="#tab-1" class="tab">бухгалтерские услуги</a></li>
+                <li><a href="#" rel="#tab-2" class="tab">консалтинговые услуги</a></li>
+                <li><a href="#" rel="#tab-3" class="active tab">юридическое сопровождение</a></li>
+                <li><a href="#" rel="#tab-4" class="tab">налоговый консалтинг</a></li>
+                <li><a href="#" rel="#tab-5" class="tab">рассчетный счет без визита в банк</a></li>
+                <li><a href="#" rel="#tab-6" class="tab">предоставление услуг по аренде юридического адреса</a></li>
+                <li><a href="#" rel="#tab-7" class="tab">банкротство</a></li>
+                <li><a href="#" rel="#tab-8" class="tab">аудиторские услуги</a></li>
+                <li><a href="#" rel="#tab-9" class="tab">регистрация компании и организаций</a></li>
+                <li><a href="#" rel="#tab-10" class="tab">ликвидация юридических лиц</a></li>
+                <li><a href="#" rel="#tab-11" class="tab">другие услуги</a></li>
+            </ul>
+            <div class="tabgroup" id="first-tab-group">
+                <div class="tab-hidden" id="tab-3">
+                    <ul class="sub-menu__items__item list">
+                        <li><a href="#">Услуги налогового планирования</a></li>
+                        <li><a href="#">Жалоба в налоговую</a></li>
+                        <li><a href="#">Ответ на требование налогового органа</a></li>
+                        <li><a href="#">Пакет безопасности сделок</a></li>
+                        <li><a href="#">Услуги налогового планирования</a>
+                            <div class="block-green">top</div>
+                        </li>
+                        <li><a href="#">Жалоба в налоговую</a></li>
+                        <li><a href="#">Ответ на требование налогового органа</a></li>
+                        <li><a href="#">Пакет безопасности сделок</a></li>
+                        <li><a href="#">Сопровождение по налоговым спорам</a></li>
+                        <li><a href="#">Ответ на требование налогового органа</a></li>
+                        <li><a href="#">Пакет безопасности сделок</a></li>
+                        <li><a href="#">Услуги налогового планирования</a></li>
+                        <li><a href="#">Регистрация некоммерческого партнерства</a></li>
+                        <li><a href="#">Сопровождение процедуры </a></li>
+                    </ul>
+                    <ul class="sub-menu__items__item list">
+                        <li><a href="#">Услуги оптимизации налогов</a></li>
+                        <li><a href="#">Возражения на акт налоговой</a></li>
+                        <li><a href="#">Пакет должной осмотрительности</a></li>
+                        <li><a href="#">Международное налоговое планирование</a></li>
+                        <li><a href="#">Услуги оптимизации налогов</a></li>
+                        <li><a href="#">Возражения на акт налоговой</a></li>
+                        <li><a href="#">Пакет должной осмотрительности</a></li>
+                        <li><a href="#">Международное налоговое планирование</a>
+                            <div class="block-new">new</div>
+                        </li>
+                        <li><a href="#">Пакет должной осмотрительности</a></li>
+                        <li><a href="#">Международное налоговое планирование</a></li>
+                        <li><a href="#">Услуги оптимизации налогов</a></li>
+                        <li><a href="#">Регистрация автономных некоммерческих организаций</a></li>
+                        <li><a href="#">Услуги в области антимонопольного законодательства</a></li>
+                    </ul>
+                    <div class="sub-menu__items__item sub-menu__items__item--block">
+                        <div class="sub-menu__items__item--block-inner">
+                            <h5>комплексный подход</h5>
+                            <p>Сделаем ваш бизнес более прибыльным и безопасным — расти,
+                                сокращать затраты, управлять рисками</p>
+                            <button class="btn btn-transparent">
+                                <span>Консультация</span>
+                                <svg>
+                                    <use xlink:href="img/sprites/sprite.svg#next"></use>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="items-block">
+                            <div class="items-block__item">
+                                <p class="bold">90%</p>
+                                <p>выигранных дел</p>
+                            </div>
+                            <div class="items-block__item">
+                                <p class="bold">8</p>
+                                <p>экспертов</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-hidden" id="tab-4">
+                    <ul class="sub-menu__items__item list">
+                        <li><a href="#">Услуги налогового планирования</a></li>
+                        <li><a href="#">Жалоба в налоговую</a></li>
+                        <li><a href="#">Ответ на требование налогового органа</a>
+                            <div class="block-green">top</div>
+                        </li>
+                        <li><a href="#">Пакет безопасности сделок</a></li>
+                        <li><a href="#">Услуги налогового планирования</a></li>
+                        <li class="js-subMenu"><a href="#">Оптимизация видов налогов</a>
+                            <ul class="js-subMenu__item__hidden">
+                                <li><a href="#">Консультации по НДС</a></li>
+                                <li><a href="#">Консультации УСН</a></li>
+                                <li><a href="#">Консультации по налогу на имущество</a></li>
+                                <li><a href="#">Консультации по налогу на прибыль</a></li>
+                                <li><a href="#">Консультация по НДФЛ</a></li>
+                                <li><a href="#">Консультация по страховым взносам</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Ответ на требование налогового органа</a></li>
+                        <li><a href="#">Пакет безопасности сделок</a></li>
+                    </ul>
+                    <ul class="sub-menu__items__item list">
+                        <li class="js-subMenu">
+                            <a href="#">Консультация по налогам</a>
+                            <div class="block-green">top</div>
+                            <ul class="js-subMenu__item__hidden">
+                                <li><a href="#">Консультации по НДС</a></li>
+                                <li><a href="#">Консультации УСН</a></li>
+                                <li><a href="#">Консультации по налогу на имущество</a></li>
+                                <li><a href="#">Консультации по налогу на прибыль</a></li>
+                                <li><a href="#">Консультация по НДФЛ</a></li>
+                                <li><a href="#">Консультация по страховым взносам</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Возражения на акт налоговой</a>
+                        </li>
+                        <li><a href="#">Пакет должной осмотрительности</a>
+                            <div class="block-new">new</div>
+                        </li>
+                        <li><a href="#">Международное налоговое планирование</a></li>
+                        <li><a href="#">Оптимизация для юрлиц</a></li>
+                        <li><a href="#">Возражения на акт налоговой</a></li>
+                        <li><a href="#">Пакет должной осмотрительности</a></li>
+                    </ul>
+                    <div class="sub-menu__items__item sub-menu__items__item--block">
+                        <div class="sub-menu__items__item--block-inner">
+                            <h5>комплексный подход</h5>
+                            <p>Сделаем ваш бизнес более прибыльным и безопасным — расти,
+                                сокращать затраты, управлять рисками</p>
+                            <button class="btn btn-transparent">
+                                <span>Консультация</span>
+                                <svg>
+                                    <use xlink:href="img/sprites/sprite.svg#next"></use>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="items-block">
+                            <div class="items-block__item">
+                                <p class="bold">90%</p>
+                                <p>выигранных дел</p>
+                            </div>
+                            <div class="items-block__item">
+                                <p class="bold">8</p>
+                                <p>экспертов</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-hidden" id="tab-9">
+                    <ul class="sub-menu__items__item list">
+                        <li class="list__title"><a href="#">Регистрация фирм</a></li>
+                        <li><a href="#">Услуги налогового планирования</a></li>
+                        <li><a href="#">Жалоба в налоговую</a></li>
+                        <li><a href="#">Ответ на требование налогового органа</a></li>
+                        <li><a href="#">Пакет безопасности сделок</a></li>
+                        <li><a href="#">Услуги налогового планирования</a></li>
+                        <li><a href="#">Жалоба в налоговую</a></li>
+                        <li><a href="#">Ответ на требование налогового органа</a></li>
+                        <li><a href="#">Пакет безопасности сделок</a></li>
+                        <li><a href="#">Сопровождение по налоговым спорам</a>
+                            <div class="block-green">top</div>
+                        </li>
+                        <li><a href="#">Ответ на требование налогового органа</a></li>
+                        <li><a href="#">Пакет безопасности сделок</a></li>
+                        <li><a href="#">Услуги налогового планирования</a></li>
+                        <li><a href="#">Регистрация некоммерческого </a></li>
+                    </ul>
+                    <ul class="sub-menu__items__item list">
+                        <li class="list__title"><a href="#">Регистрация изменений</a></li>
+                        <li><a href="#">Услуги оптимизации налогов</a></li>
+                        <li><a href="#">Возражения на акт налоговой</a></li>
+                        <li><a href="#">Пакет должной осмотрительности</a></li>
+                        <li><a href="#">Международное налоговое планирование</a></li>
+                        <li><a href="#">Услуги оптимизации налогов</a></li>
+                        <li><a href="#">Возражения на акт налоговой</a>
+                            <div class="block-green">top</div>
+                        </li>
+                        <li><a href="#">Пакет должной осмотрительности</a></li>
+                        <li><a href="#">Международное налоговое планирование</a></li>
+                        <li><a href="#">Пакет должной осмотрительности</a></li>
+                        <li><a href="#">Международное налоговое планирование</a></li>
+                        <li><a href="#">Услуги оптимизации налогов</a></li>
+                        <li><a href="#">Регистрация автономных некоммерческих организаций</a></li>
+                    </ul>
+                    <ul class="sub-menu__items__item list">
+                        <li class="list__title"><a href="#">Регистрация некоммерческих организаций</a></li>
+                        <li><a href="#">Услуги оптимизации налогов</a>
+                            <div class="block-green">top</div>
+                        </li>
+                        <li><a href="#">Возражения на акт налоговой</a></li>
+                        <li><a href="#">Пакет должной осмотрительности</a></li>
+                        <li><a href="#">Международное налоговое планирование</a></li>
+                        <li><a href="#">Пакет должной осмотрительности</a></li>
+                        <li><a href="#">Международное налоговое планирование</a></li>
+                        <li><a href="#">Услуги оптимизации налогов</a></li>
+                        <li><a href="#">Регистрация автономных некоммерческих организаций</a></li>
+                        <li><a href="#">Жалоба в налоговую</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
-</nav>
+</div>
+<div class="overlay"></div>
 
 <!--
     *********MAIN*******
@@ -212,7 +443,7 @@
                     </div>
                     <div class="price">от 59 900 руб.*</div>
                 </div>
-                <button class="btn">
+                <button class="btn btn-black">
                     <span>Зафиксировать стоимость</span>
                     <svg>
                         <use xlink:href="img/sprites/sprite.svg#next"></use>
@@ -249,8 +480,30 @@
     </section>
 </main>
 
+<div class="modal" id="modal-callback">
+    <div class="modal-bg"></div>
+    <div class="modal-box">
+        <div class="modal-header">
+            <div class="js-close-modal">&#10006;</div>
+        </div>
+        <div class="modal-body">
+            <form action="" method="">
+                <h4>Форма обратной связи</h4>
+                <label for="name"></label><input type="text" name="phone" id="name" placeholder="Ваше имя" required>
+                <label for="phone"></label><input type="text" name="phone" id="phone" class="phone" placeholder="+7 999-999-99-99" required>
+                <button class="btn btn-black">
+                    <span>Отправить</span>
+                    <svg>
+                        <use xlink:href="img/sprites/sprite.svg#next"></use>
+                    </svg>
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
 <script src="js/main.js"></script>
 </body>
 
